@@ -2,7 +2,7 @@ import { AggregateRowBuildContext } from '../BuildContext/AggregateRowBuildConte
 import { DataRow } from '../Rows/DataRow';
 import { AggregateRow } from '../Rows/AggregateRow';
 import { AggregateColumnDefinition } from "../AggregateColumnDefinition";
-import { AggregateRowPositions  } from "AggregateRowPositions"
+import { AggregateRowPositions  } from "./AggregateRowPositions"
 
 export class AggregateRowDefinition {
     private static _id: (ar: AggregateRow, ctx: AggregateRowBuildContext) => AggregateRow = (r, ctx) => r;
